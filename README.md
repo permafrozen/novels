@@ -1,3 +1,4 @@
+
 <div align="center">
   <h1>novels</h1>
   <h4>tui light novel reader</h4>
@@ -7,6 +8,14 @@
 
 ## Table Of Content
 
+<!--toc:start-->
+- [About](#about)
+- [Development](#development)
+- [Todo](#todo)
+- [Disclaimer](#disclaimer)
+- [License](#license)
+<!--toc:end-->
+
 ## About
 
 Simple tui program which can fetch novels from [webnovel](https://www.webnovel.com/) via web scraping. You can search, add bookmarks and read novels all from the comfort of your terminal emulator.
@@ -14,9 +23,9 @@ Simple tui program which can fetch novels from [webnovel](https://www.webnovel.c
 ## Development
 
 - **Environment:**
-  -  nix flake: _devshell, package_
-  -  uv + uv2nix: _project building_
-  -  direnv: _handeling environment_
+  - nix flake: _devshell, package_
+  - uv + uv2nix: _project building_
+  - direnv: _handeling environment_
 - **Python:**
   - scrapy: _web scraping_
   - curses: _tui_
@@ -30,6 +39,7 @@ Simple tui program which can fetch novels from [webnovel](https://www.webnovel.c
 - [ ] Displaying Novel in "Library"
 
 ...
+
 ## Disclaimer
 
 > [!IMPORTANT]
