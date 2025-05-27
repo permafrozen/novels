@@ -1,20 +1,20 @@
 [project]
 name = "novels"
 version = "0.1.0"
-description = "Add your description here"
+description = "cli application for fetching and reading light novels"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = ["scrapy>=2.13.0"]
 
 [project.scripts]
-novels = "novels:main"
+novels = "novels.cli:main"
 
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [tool.hatch.build.targets.wheel]
-packages = ["novels"]
+packages = ["src/novels"]
 
 [dependency-groups]
 dev = ["ruff>=0.6.7"]
