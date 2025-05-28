@@ -61,7 +61,7 @@
 
         in {
           packages.default =
-            pythonSet.mkVirtualEnv "novels-env" workspace.deps.default;
+            pythonSet.mkVirtualEnv "novels" workspace.deps.default;
 
           # Make novels runnable with `nix run`
           apps.${system} = {
