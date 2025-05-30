@@ -1,0 +1,9 @@
+LOG_LEVEL =  "INFO"
+COOKIES_ENABLED = True
+BOT_NAME = "novels"
+SPIDER_MODULES = ["novels.spiders"]
+NEWSPIDER_MODULE = "novels.spiders"
+ADDONS = {}
+ROBOTSTXT_OBEY = True
+FEED_EXPORT_ENCODING = "utf-8"
+# HTTPERROR_ALLOWED_CODES = [403]
